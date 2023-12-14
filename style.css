@@ -1,0 +1,147 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.navbar-component {
+  background-color: #2A8C82;
+}
+
+#titulo-pagina {
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#categorias {
+  margin-top: 10px;
+  width: 750px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-categoria {
+  display: flex;
+  align-items: center;
+  padding-top: 2px;
+  width: 145px;
+}
+
+.img-categorias {
+  width: 70px;
+}
+
+.nome-categoria {
+  font-weight: bold;
+}
+
+#categoria-mecanico {
+  border: solid 3px;
+  border-color: darkblue;
+}
+
+#categoria-mecanico:hover {
+  border: solid 4px darkblue;
+}
+
+#categoria-mercado {
+  border: solid 3px;
+  border-color: darkorange;
+}
+
+#categoria-mercado:hover {
+  border: solid 4px darkorange;
+}
+
+#categoria-pessoal {
+  border: solid 3px;
+  border-color: green;
+}
+
+#categoria-pessoal:hover {
+  border: solid 4px green;
+}
+
+#categoria-lazer {
+  border: solid 3px;
+  border-color: purple;
+}
+
+#categoria-lazer:hover {
+  border: solid 4px purple;
+}
+
+#categoria-saude {
+  border: solid 3px;
+  border-color: red;
+}
+
+#categoria-saude:hover {
+  border: solid 4px red;
+}
+
+#historico-despesas {
+  border: solid 1px black;
+  width: 750px;
+  height: 600px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-y: auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+#exampleModalLabel {
+  color: white;
+}
+
+.btn-salvar {
+  background-color: #2A8C82;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
